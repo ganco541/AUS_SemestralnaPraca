@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{a2250f2d-5fe0-44c3-98f4-88aef57ac946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structure">
+      <UniqueIdentifier>{c76b077b-ec3a-470b-9f1f-8a7f0018adfd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Semestralka_Final.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\OutputOperations.h">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="structure\UzemnaJednotka.cpp">
+      <Filter>structure</Filter>
+    </ClCompile>
+    <ClCompile Include="structure\Hierarchy.cpp">
+      <Filter>structure</Filter>
+    </ClCompile>
+    <ClCompile Include="structure\Tables.cpp">
+      <Filter>structure</Filter>
+    </ClCompile>
+    <ClCompile Include="structure\Sequences.cpp">
+      <Filter>structure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\Algorithm.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Other.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="structure\UzemnaJednotka.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="structure\Hierarchy.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Predicators.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Comperators.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="structure\Tables.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+    <ClInclude Include="structure\Sequences.h">
+      <Filter>structure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
